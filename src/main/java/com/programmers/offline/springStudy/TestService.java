@@ -10,7 +10,7 @@ public class TestService {
     TestRepository testRepository;
 
     public String getTest(){
-        return "test";
+        return testRepository.test();
     }
 
     public String getApple(){
