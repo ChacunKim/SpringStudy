@@ -9,11 +9,19 @@ public class TestService {
     @Autowired
     TestRepository testRepository;
 
-    public String getTest(){
-        return "test";
-    }
-
     public String getApple(){
         return "apple";
+    }
+
+    public String getTest(){
+        return testRepository.testGet();
+    }
+
+    public String save(String value) {
+        return testRepository.save(value);
+    }
+
+    public String search(Long id) {
+        return testRepository.search(id);
     }
 }
