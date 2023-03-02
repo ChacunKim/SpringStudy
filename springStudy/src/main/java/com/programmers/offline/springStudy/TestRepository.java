@@ -25,17 +25,17 @@ public class TestRepository {
     // ConcurrentHashMap<>()으로 씀
 
     /*
-    * test() 메소드가 불리면
-    * db에서 "test" 글자를 찾아서 반환해주세요.
-    *
-    * 실습! 스스로 먼저 해보기
-    * 1. db에 데이터를 삽입하는 메소드. save  ->>put
-    *   : 키는 1, 값은 "test"
-    * 2. 그래서 test 메소드는 key값을 가지고 "test"를 뽑아서 return 자리를 대체해주세요. ->>get
-    *
-    * Map 에 사용하는 메소드 put과 get
-    * JS의 Map 아주 기능 많다. 생각 확장!
-    * */
+     * test() 메소드가 불리면
+     * db에서 "test" 글자를 찾아서 반환해주세요.
+     *
+     * 실습! 스스로 먼저 해보기
+     * 1. db에 데이터를 삽입하는 메소드. save  ->>put
+     *   : 키는 1, 값은 "test"
+     * 2. 그래서 test 메소드는 key값을 가지고 "test"를 뽑아서 return 자리를 대체해주세요. ->>get
+     *
+     * Map 에 사용하는 메소드 put과 get
+     * JS의 Map 아주 기능 많다. 생각 확장!
+     * */
 
     public void testSave(){
         db.put(1L, "test");
